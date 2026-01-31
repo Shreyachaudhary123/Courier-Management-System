@@ -1,0 +1,13 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [],
+  theme: {
+    extend: {
+      spacing: {
+        '96': '60rem',
+        '144': '36rem',
+      },
+    },
+  },
+  plugins: [],
+}

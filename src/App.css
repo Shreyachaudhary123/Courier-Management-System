@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.earthq-predit h1{
+  color: #111827;
+    font-weight: 600;
+    font-size: 2.25em;
+    margin-top: 0;
+    margin-bottom: 0.8888889em;
+    line-height: 1.1111111;margin-top: 3rem;
+}
+.earthq-predit{
+  width: 80%;
+  margin: 0 auto;
+}
+.earthq-predit-flex {
+  display: flex;
+  gap: 4rem;margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+.earthq-predit-flex>div{
+  /* -webkit-box-shadow: 0px 2px 5px 12px rgba(209,209,209,0.15);
+-moz-box-shadow: 0px 2px 5px 12px rgba(209,209,209,0.15);
+box-shadow: 0px 2px 5px 12px rgba(209,209,209,0.15); */
+border: 1px solid rgba(76, 76, 76, 0.2);
+  width: 100%;
+padding: 18px;border-radius: 10px;
+  width: 50%;
+}
+.earthq-predit p{
+text-align: left;width: fit-content ;
+}
+.earthq-predit-left-card {
+
+}
+.earthq-predit-left-card-input{
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.earthq-predit-left-card-input input{
+  margin-top: 9px;
+  width: 100%;
+  padding: 0.625rem;border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.earthq-predit-left-card-btns{
+  width: 47%;justify-content: space-between;
+  display: flex;
+  align-items: center;margin-top: 1rem;
+}
+.earthq-predit-left-card-btns button{
+  width: 48%;padding: 10px;
+  background-color: rgba(66,153,225,1);
+  border-radius: 10px;
+  color: #fff;
+  font-weight:  600;
+  
+}
+.earthq-predit-left-card-btns .secondary{
+  background-color: transparent;
+  border: 1px solid rgba(66,153,225,1);
+  color: rgba(66,153,225,1);
+}

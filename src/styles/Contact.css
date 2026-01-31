@@ -1,0 +1,23 @@
+.mb-4{
+    color: blue;
+}
+.full{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1488px;
+    min-height: 100%;
+    overflow-y: hidden;
+}
+.contactForm{
+    margin-top: 6%;
+    margin-left: 30%;
+    max-width:40%;
+}
+#form4Example4{
+    margin-left: -43%;
+}
+.landing-page__footer{
+    margin-top: 8.9%;
+    min-width: 1488px;
+}

@@ -1,0 +1,10 @@
+.card{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-left: 16%;
+}
+.card-header{
+    font-weight: bold;
+    font-size: larger;
+}
